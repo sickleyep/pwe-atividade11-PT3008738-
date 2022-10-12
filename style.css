@@ -1,0 +1,428 @@
+/* ---------------------Eventos------------------------ */
+
+ h1  {
+      text-align: center;
+    }
+
+
+
+
+  .bloco {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  .ifspp {
+   text-align: center;
+}
+
+  .button{
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  .buttonreset{
+    background-color: #4CAF50;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ .password {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  #evento {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* ---------------------Contato------------------------ */
+
+  .bloco2 {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+   #textarea , select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+   input[type=submit], select {
+    color: white;
+    background: #4CAF50;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+   #assunto, select {
+    background: white;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+/* ---------------------MENU------------------------ */
+
+ .imagem {
+      border-radius: 60%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+  #menuhorizontal {
+      height: 60%;
+      width: 100%;
+  }
+
+  #menu {
+      height: 20%;
+      width: 100%;
+  }
+
+  .logo {
+      height: 30%;
+      width: 30%;
+  }
+
+   footer {
+      text-align: center;
+    }
+  
+   p {
+     text-align: left;
+   } 
+  
+  iframe {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bordas { 
+  border-top-width:2px;
+  border-top-color: blue;
+  corder-top-style: dashed;}
+  
+  p.dotted { border-style: dotted;
+    border-width: 1px;
+    border-color: blue;
+    text-align: center;}
+
+    .tabela{
+    background-color: green;
+}
+
+div#menuhorizontal {
+	background-color: green;
+}
+
+
+div#menuhorizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+div#menuhorizontal li {
+  float: left;
+}
+
+div#menuhorizontal li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#menuhorizontal li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+div#menuhorizontal li.dropdown {
+  display: inline-block;
+}
+
+div#menuhorizontal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+div#menuhorizontal .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+div#menuhorizontal .dropdown-content a:hover {background-color: #f1f1f1;}
+
+div#menuhorizontal .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div#menuhorizontal li#about {
+	float:right
+}
+
+   h2 {
+     text-align: center;
+   } 
+
+/* ---------------------------Grid Layout-------------------------------- */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item1 {
+
+  padding: 20px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.grid-item3 {
+
+  padding: 20px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-size: 12px;
+  text-align: center;
+  
+}
+
+.grid-item7 {
+
+  padding: 20px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.grid-item9 {
+
+  padding: 20px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* -------------------------SlideShow ----------------------------*/
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+   border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* ---------------------------------Entrar---------------------------------------*/
+
+
+
+/*body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}*/
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* -------------------------------------------Curso ADS------------------------------------------------------*/
+
+#textozika {
+  text-align: left;
+}
+
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#componentes {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#componentes td, #componentes th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#componentes tr:nth-child(even){background-color: #f2f2f2;}
+
+#componentes tr:hover {background-color: #ddd;}
+
+#componentes th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
